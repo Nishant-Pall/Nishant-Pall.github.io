@@ -181,5 +181,9 @@ p {
     .flex-container {
         flex-direction: column;
         justify-content: center;
+        margin-left: 25vw;
+    }
+    #intro {
+        top: 30%;
     }
 }
