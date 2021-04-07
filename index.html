@@ -1,39 +1,73 @@
 <!doctype html>
 <html lang="en" class="no-js">
+
 <head>
-  <base target="_blank">
-  <meta charset="UTF-8" />
-  <title>Nishant Singh Pall</title>
-  <link rel="shortcut icon" type="image/jpg" href="assets/N.jpg">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <!-- remember, jQuery is completely optional -->
-  <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
-  <script type="text/javascript" src="js/jquery.particleground.js"></script>
-  <script type="text/javascript" src="js/demo.js"></script>
+    <base target="_blank">
+    <meta charset="UTF-8" />
+    <title>Nishant Singh Pall</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/N.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/buttons.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- remember, jQuery is completely optional -->
+    <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
+    <script type="text/javascript" src="js/jquery.particleground.js"></script>
+    <script type="text/javascript" src="js/demo.js"></script>
+    <script>
+        function copyLink(url) {
+            navigator.clipboard.writeText(url)
+            document.getElementById("mail").innerHTML = "Copied";
+        }
+
+        function resettext() {
+            document.getElementById("mail").innerHTML = "Copy Email";
+        }
+        document.getElementById("mail").innerHTML = "Copy Email";
+    </script>
 </head>
 
 <body>
 
-<div id="particles">
-  <div id="intro">
-      <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 600;">Nishant Singh Pall  <a href="Nishant_Pall_Resume.pdf" style="color: white;"><i class="far fa-file-alt" style="font-size: 0.785em;"></i></a></h2>
-        <hr style="width: 50%; background-color: #E83951; border-color: #E83951;">
-    <a href="https://www.linkedin.com/in/nishant-pall-9b44ba189/" style="color: white;"><i class="fab fa-linkedin" style="font-size: 2em;"></i></a>
-    &nbsp
-    <a href="https://www.instagram.com/nishantpall/" style="color: white;"><i class="fab fa-instagram" style="font-size: 2em;"></i></a>
-    &nbsp
-    <a href="https://twitter.com/PallNishant" style="color: white;"><i class="fab fa-twitter" style="font-size: 2em;"></i></a>
-    &nbsp
-    <a href="https://github.com/Nishant-Pall" style="color: white;"><i class="fab fa-github" style="font-size: 2em;"></i></a>
-    &nbsp
-    <a href="mailto: nishantpall877@gmail.com" style="color: white;"><i class="far fa-envelope" style="font-size: 2em;"></i></a>
-    &nbsp
-    <a href="https://steamcommunity.com/id/PRHYME89" style="color: white;"><i class="fab fa-steam" aria-hidden="true" style="font-size: 2em;"></i></a>
-    &nbsp
-</div>
-
+    <div id="particles">
+        <div id="intro">
+            <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 600;">Nishant Singh Pall <a href="Nishant_Pall_Resume.pdf" style="color: white;"><i class="far fa-file-alt" style="font-size: 0.785em;"></i></a></h2>
+            <div class="flex-container">
+                <div class="button-container-1 flex-item">
+                    <span class="mas">LinkedIN</span>
+                    <button onclick=" window.open('https://www.linkedin.com/in/nishant-pall-9b44ba189/','_blank')" class="btn" id='work' type="button" name="Hover"><i class="fab fa-linkedin" style="font-size: 3em;"></i></button>
+                </div>
+                <div class="button-container-2 flex-item">
+                    <span class="mas">Instagram</span>
+                    <button onclick=" window.open('https://www.instagram.com/nishantpall/','_blank')" class="btn" id='work' type="button" name="Hover"><i class="fab fa-instagram" style="font-size: 3em;"></i></button>
+                </div>
+                <div class="button-container-3 flex-item">
+                    <span class="mas">Twitter</span>
+                    <button onclick=" window.open('https://www.twitter.com/PallNishant/','_blank')" class="btn" id='work' type="button" name="Hover"><i class="fab fa-twitter" style="font-size: 3em;"></i></button>
+                </div>
+                <div class="button-container-1 flex-item">
+                    <span class="mas">Github</span>
+                    <button onclick=" window.open('https://github.com/Nishant-Pall','_blank')" class="btn" id='work' type="button" name="Hover"><i class="fab fa-github" style="font-size: 3em;"></i></button>
+                </div>
+                <div class="button-container-2 flex-item" onmouseout="resettext()">
+                    <span id="mail" class="mas">Copy Email</span>
+                    <button onclick="copyLink('nishantpall877@gmail.com')" class="btn" id='work' type="button" name="Hover"><i class="far fa-envelope" style="font-size: 3em;"></i></button>
+                </div>
+                <div class="button-container-3 flex-item">
+                    <span class="mas">Steam</span>
+                    <button onclick=" window.open('https://steamcommunity.com/id/PRHYME89','_blank')" class="btn" id='work' type="button" name="Hover"><i class="fab fa-steam" style="font-size: 3em;"></i></button>
+                </div>
+                <!-- <a href="https://www.linkedin.com/in/nishant-pall-9b44ba189/" style="color: white;"><i class="fab fa-linkedin" style="font-size: 2em;"></i></a> &nbsp
+            <a href="https://www.instagram.com/nishantpall/" style="color: white;"><i class="fab fa-instagram" style="font-size: 2em;"></i></a> &nbsp
+            <a href="https://twitter.com/PallNishant" style="color: white;"><i class="fab fa-twitter" style="font-size: 2em;"></i></a> &nbsp
+            <a href="https://github.com/Nishant-Pall" style="color: white;"><i class="fab fa-github" style="font-size: 2em;"></i></a> &nbsp
+            <a href="mailto: nishantpall877@gmail.com" style="color: white;"><i class="far fa-envelope" style="font-size: 2em;"></i></a> &nbsp
+            <a href="https://steamcommunity.com/id/PRHYME89" style="color: white;"><i class="fab fa-steam" aria-hidden="true" style="font-size: 2em;"></i></a> &nbsp -->
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
