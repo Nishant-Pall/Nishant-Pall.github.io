@@ -11,22 +11,11 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/buttons.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- remember, jQuery is completely optional -->
     <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
     <script type="text/javascript" src="js/jquery.particleground.js"></script>
     <script type="text/javascript" src="js/demo.js"></script>
-    <script>
-        function copyLink(url) {
-            navigator.clipboard.writeText(url)
-            document.getElementById("mail").innerHTML = "Copied";
-        }
-
-        function resettext() {
-            document.getElementById("mail").innerHTML = "Copy Email";
-        }
-        document.getElementById("mail").innerHTML = "Copy Email";
-    </script>
 </head>
 
 <body>
@@ -68,6 +57,17 @@
             </div>
         </div>
     </div>
+    <script>
+        function copyLink(url) {
+            navigator.clipboard.writeText(url)
+            document.getElementById("mail").innerHTML = "Copied";
+        }
+
+        function resettext() {
+            document.getElementById("mail").innerHTML = "Copy Email";
+        }
+        document.getElementById("mail").innerHTML = "Copy Email";
+    </script>
 </body>
 
 </html>
