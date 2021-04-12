@@ -200,12 +200,6 @@ body .cybr-btn+.cybr-btn {
     margin-top: 2rem;
 }
 
-.container-1 {
-    display: flex;
-    justify-content: center;
-    height: 5em;
-}
-
 .cybr-btn-name {
     /* --primary: hsl(var(--primary-hue), 85%, calc(var(--primary-lightness, 50) * 1%)); */
     /* --shadow-primary: hsl(var(--shadow-primary-hue), 90%, 50%); */
