@@ -170,7 +170,7 @@ a {
     -webkit-mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
     mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
     -webkit-mask-size: 7100% 100%;
-    mask-size: 7100% 100%;
+    mask-size: 7100% 100% !important;
     border: none;
     color: black;
     cursor: pointer;
