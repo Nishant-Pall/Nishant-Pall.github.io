@@ -203,6 +203,7 @@ body .cybr-btn+.cybr-btn {
 .container-1 {
     display: flex;
     justify-content: center;
+    height: 5em;
 }
 
 .cybr-btn-name {
@@ -237,8 +238,8 @@ body .cybr-btn+.cybr-btn {
     font-weight: 700;
     border: 0;
     min-width: 250px;
-    height: 85px;
-    /* line-height: 75px; */
+    height: 75px;
+    line-height: 75px;
     transition: background 0.2s;
 }
 
@@ -358,7 +359,7 @@ body .cybr-btn+.cybr-btn {
     left: calc(var(--border) * -1);
     right: calc(var(--border) * -1);
     bottom: calc(var(--border) * -1);
-    background: var(--shadow-primary);
+    background: #000010;
     text-shadow: 2px 2px var(--shadow-primary), -2px -2px var(--shadow-secondary);
     -webkit-clip-path: var(--clip);
     clip-path: var(--clip);
