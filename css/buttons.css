@@ -25,7 +25,7 @@
     font-size: 11px;
     letter-spacing: 1px;
     background: white;
-    -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+    -webkit-mask: url("../assets/nature-sprite.png");
     mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
     -webkit-mask-size: 2300% 100%;
     mask-size: 2300% 100%;
@@ -66,8 +66,8 @@
     font-size: 11px;
     letter-spacing: 1px;
     background: white;
-    -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
-    mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+    -webkit-mask: url("../assets/urban-sprite.png");
+    mask: url("../assets/urban-sprite.png");
     -webkit-mask-size: 3000% 100%;
     mask-size: 3000% 100%;
     border: none;
@@ -167,8 +167,8 @@ a {
     font-size: 11px;
     letter-spacing: 1px;
     background: white;
-    -webkit-mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
-    mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+    -webkit-mask: url("../assets/natureSmaller.png");
+    mask: url("../assets/natureSmaller.png");
     -webkit-mask-size: 7100% 100%;
     mask-size: 7100% 100% !important;
     border: none;
